@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomade | Premium Website Development & Design</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Atomade is a premium website development company offering royal-grade, custom-crafted web design at budget-friendly prices. We build. You grow.">
+    <meta name="keywords" content="website development, premium web design, affordable premium website, Atomade, interactive web design, custom development, budget premium website">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background glows for premium dark mode aesthetics -->
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+    <div class="bg-glow bg-glow-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-text">ATO<span class="logo-accent">MADE</span></span>
+                <span class="logo-tagline">Creating the Future, Atom by Atom.</span>
+            </a>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#philosophy" class="nav-link">Our Philosophy</a>
+                <a href="#works" class="nav-link">My Projects</a>
+                <a href="#templates" class="nav-link">Showcase</a>
+                <a href="#estimator" class="nav-link">Interactive Estimator</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#estimator" class="btn btn-primary btn-sm">Get Estimate</a>
+                <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Toggle Navigation">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-code-terminal">
+                <div class="terminal-header">
+                    <span class="t-dot red"></span>
+                    <span class="t-dot yellow"></span>
+                    <span class="t-dot green"></span>
+                    <span class="terminal-title">atomade.config.js</span>
+                </div>
+                <div class="terminal-body">
+                    <pre><code id="typingCode"></code></pre>
+                </div>
+            </div>
+
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge-container">
+                        <span class="badge"><i data-lucide="sparkles" class="badge-icon"></i> Premium Web Agency</span>
+                    </div>
+                    <h1 class="hero-title">Royal Digital Craftsmanship.<br><span class="text-gradient">Democratized Budgets.</span></h1>
+                    <p class="hero-description">
+                        We build high-performance, bespoke websites that position your brand at the absolute peak of your industry. Experience premium, royal-grade design without the imperial price tag.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#templates" class="btn btn-primary btn-lg">Explore Templates</a>
+                        <a href="#estimator" class="btn btn-outline btn-lg">Calculate Cost <i data-lucide="arrow-right" class="btn-icon"></i></a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Custom Tailored</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">7-14</span>
+                            <span class="stat-label">Days Delivery</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">24/7</span>
+                            <span class="stat-label">Royal Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-card-stack">
+                        <div class="hero-card main-card">
+                            <div class="card-header-bar">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                                <span class="card-title-bar">atomade.com</span>
+                            </div>
+                            <div class="card-inner">
+                                <div class="card-glow"></div>
+                                <div class="preview-hero-logo">ATO<span>MADE</span></div>
+                                <div class="preview-hero-grid">
+                                    <div class="preview-hero-item active"></div>
+                                    <div class="preview-hero-item"></div>
+                                    <div class="preview-hero-item"></div>
+                                </div>
+                                <div class="preview-line long"></div>
+                                <div class="preview-line medium"></div>
+                                <div class="preview-line short"></div>
+                            </div>
+                        </div>
+                        <div class="hero-card secondary-card">
+                            <div class="mini-chart">
+                                <div class="bar" style="--height: 40%"></div>
+                                <div class="bar" style="--height: 65%"></div>
+                                <div class="bar" style="--height: 50%"></div>
+                                <div class="bar" style="--height: 85%"></div>
+                                <div class="bar" style="--height: 95%"></div>
+                            </div>
+                            <p class="chart-text">Conversion Rate +240%</p>
+                        </div>
+                        <div class="hero-card tertiary-card">
+                            <div class="shield-icon">
+                                <i data-lucide="shield-check"></i>
+                            </div>
+                            <p>Budget Premium Guarantee</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Brand Philosophy / The Purple Story Section -->
+        <section id="philosophy" class="philosophy-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">The Color of Royalty, <span class="text-gradient">Reimagined</span></h2>
+                    <p class="section-subtitle">Why a premium agency wears the purple banner, and what it means for your business.</p>
+                </div>
+                <div class="philosophy-grid">
+                    <div class="philosophy-card history-card">
+                        <div class="philosophy-icon-box">
+                            <i data-lucide="crown"></i>
+                        </div>
+                        <h3>Why Is Purple Considered the Color of Royalty?</h3>
+                        <p>
+                            Historically, purple was the ultimate symbol of imperial power, luxury, and wealth. In ancient Rome, Egypt, and Persia, purple dye (Tyrian purple) was harvested by hand from thousands of rare sea snails. The process was so laborious and expensive that the dye was worth its weight in gold. 
+                        </p>
+                        <p>
+                            Roman emperors decreed that only the royal family could wear purple garments—violating this law was considered high treason. Purple became synonymous with the elite, the exclusive, and the unobtainable.
+                        </p>
+                    </div>
+
+                    <div class="philosophy-card modern-card">
+                        <div class="philosophy-icon-box">
+                            <i data-lucide="scale"></i>
+                        </div>
+                        <h3>Democratizing the Royal Standard</h3>
+                        <p>
+                            Today, modern technology and synthesis have changed everything. Purple is accessible to anyone. There are no laws reserving it for monarchs, and no exclusive snail harvesting required. Yet, purple has never lost its majestic allure, its sense of high premium styling, and its deep creative depth.
+                        </p>
+                        <p>
+                            At <strong>Atomade</strong>, we adopt this exact dynamic as our brand philosophy. Elite, high-converting, royal-caliber web development should not be restricted to massive corporations with unlimited budgets. We deliver the absolute royalty of design and functionality, engineered efficiently, to offer you a premium website at a smart, budget-friendly price.
+                        </p>
+                    </div>
+                </div>
+                <div class="philosophy-quote">
+                    <p>"We believe that premium digital experiences are no longer a luxury of price, but a standard of execution. We offer our clients a royal presentation at a smart budget."</p>
+                    <span class="quote-author">— The Atomade Philosophy</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- My Works / My Projects Section -->
+        <section id="works" class="works-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="badge"><i data-lucide="trophy" class="badge-icon"></i> Portfolio Showcase</span>
+                    <h2 class="section-title">Royal Deliveries. <span class="text-gradient">Real-World Success.</span></h2>
+                    <p class="section-subtitle">A curated showcase of our fully completed live websites, crafted with pixel perfection.</p>
+                </div>
+
+                <div class="slideshow-wrapper">
+                    <!-- Slideshow Display Area -->
+                    <div class="slideshow-container">
+                        <!-- Browser Shell Mockup -->
+                        <div class="browser-mockup">
+                            <div class="browser-header">
+                                <span class="browser-dot red"></span>
+                                <span class="browser-dot yellow"></span>
+                                <span class="browser-dot green"></span>
+                                <div class="browser-search-bar" id="sliderUrl">https://squadransecuritymysore.in</div>
+                            </div>
+                            <div class="browser-content">
+                                <div class="slides-track" id="slidesTrack">
+                                    <!-- Slide 1 -->
+                                    <div class="slide active" data-index="0" data-url="https://squadransecuritymysore.in" data-title="Squadran Security Services" data-subtitle="Manpower Mysore (My Big Project)" data-desc="A comprehensive, multi-page security services and manpower coordination portal built for Mysore's premier security force. Features robust service architectures, responsive layout systems, and custom brand assets.">
+                                        <img src="assets/squadransecurity.png" alt="Squadran Security Services Screenshot">
+                                    </div>
+                                    <!-- Slide 2 -->
+                                    <div class="slide" data-index="1" data-url="https://unicornsystem.in" data-title="Unicorn System Solution" data-subtitle="CCTV & Automation Service" data-desc="A professional corporate platform for Unicorn System Solution, Payyavoor. Designed to highlight advanced CCTV surveillance integration, modern smart home automation installations, and technical support frameworks.">
+                                        <img src="assets/unicornsystem.png" alt="Unicorn System Solution Screenshot">
+                                    </div>
+                                    <!-- Slide 3 -->
+                                    <div class="slide" data-index="2" data-url="https://orientalbakeryulikkal.in" data-title="Oriental Bakery Ulikkal" data-subtitle="A Bakery Shop Ulikkal Second Major Product" data-desc="A premium culinary experience digital storefront built for Oriental Bakery, Ulikkal. Highlights a 45-year baking legacy, interactive product catalogs, customer reviews integration, and a clean, warm design aesthetic.">
+                                        <img src="assets/orientalbakery.png" alt="Oriental Bakery Ulikkal Screenshot">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Slider Navigation Controls -->
+                        <button class="slide-nav-btn prev-btn" id="prevSlideBtn" aria-label="Previous Slide">
+                            <i data-lucide="chevron-left"></i>
+                        </button>
+                        <button class="slide-nav-btn next-btn" id="nextSlideBtn" aria-label="Next Slide">
+                            <i data-lucide="chevron-right"></i>
+                        </button>
+                    </div>
+
+                    <!-- Slide Details Card -->
+                    <div class="slide-details-card">
+                        <div class="details-card-inner">
+                            <span class="project-tag" id="slideTag">MAJOR PROJECT</span>
+                            <h3 class="project-title" id="slideTitle">Squadran Security Services</h3>
+                            <span class="project-subtitle" id="slideSubtitle">Manpower Mysore</span>
+                            <p class="project-desc" id="slideDesc">
+                                A comprehensive, multi-page security services and manpower coordination portal built for Mysore's premier security force. Features robust service architectures, responsive layout systems, and custom brand assets.
+                            </p>
+                            
+                            <div class="project-actions">
+                                <a href="https://squadransecuritymysore.in" target="_blank" class="btn btn-primary btn-sm" id="visitLiveBtn">
+                                    Visit Live Site <i data-lucide="external-link" class="btn-icon"></i>
+                                </a>
+                            </div>
+
+                            <!-- Indicator Dots -->
+                            <div class="slider-indicators" id="sliderIndicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Template Showcase Section -->
+        <section id="templates" class="templates-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-header-left">
+                        <h2 class="section-title">Exquisite Website <span class="text-gradient">Templates</span></h2>
+                        <p class="section-subtitle">Pre-designed design languages that serve as the foundation for your fully customized masterpiece.</p>
+                    </div>
+                    <div class="filter-controls" id="filterControls">
+                        <button class="filter-btn active" data-filter="all">All Templates</button>
+                        <button class="filter-btn" data-filter="saas">SaaS & Tech</button>
+                        <button class="filter-btn" data-filter="ecommerce">E-Commerce</button>
+                        <button class="filter-btn" data-filter="portfolio">Portfolio</button>
+                        <button class="filter-btn" data-filter="bakery">Culinary & Bakery</button>
+                    </div>
+                </div>
+
+                <div class="templates-grid" id="templatesGrid">
+                    <!-- SaaS Template Card -->
+                    <div class="template-card" data-category="saas" data-design="5500" data-dev="4500" data-media="5000">
+                        <div class="template-image-container">
+                            <img src="assets/saas.png" alt="Aether SaaS landing page design mockup" class="template-image">
+                            <div class="template-overlay">
+                                <button class="btn btn-primary btn-sm btn-select-template">Select Preset</button>
+                            </div>
+                        </div>
+                        <div class="template-info">
+                            <div class="template-header-row">
+                                <span class="template-tag">SaaS & Tech</span>
+                                <span class="template-price-indicator">Premium Tier</span>
+                            </div>
+                            <h3 class="template-name">Aether SaaS</h3>
+                            <p class="template-desc">A futuristic, dark-mode landing page designed with glassmorphic cards, neon purple gradients, and dynamic interactive elements to drive software conversions.</p>
+                            <div class="template-features">
+                                <span><i data-lucide="check"></i> Dark Mode</span>
+                                <span><i data-lucide="check"></i> Interactive Charts</span>
+                                <span><i data-lucide="check"></i> Floating Animations</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- E-commerce Template Card -->
+                    <div class="template-card" data-category="ecommerce" data-design="5500" data-dev="6000" data-media="6000">
+                        <div class="template-image-container">
+                            <img src="assets/ecommerce.png" alt="Luxe Thread luxury fashion store mockup" class="template-image">
+                            <div class="template-overlay">
+                                <button class="btn btn-primary btn-sm btn-select-template">Select Preset</button>
+                            </div>
+                        </div>
+                        <div class="template-info">
+                            <div class="template-header-row">
+                                <span class="template-tag">E-Commerce</span>
+                                <span class="template-price-indicator">Imperial Tier</span>
+                            </div>
+                            <h3 class="template-name">Luxe Thread</h3>
+                            <p class="template-desc">A minimalist, high-end fashion catalog with clean grids, light lavender backgrounds, smooth hover transitions, and a seamless shopping experience.</p>
+                            <div class="template-features">
+                                <span><i data-lucide="check"></i> Product Grid</span>
+                                <span><i data-lucide="check"></i> Cart Slider</span>
+                                <span><i data-lucide="check"></i> Filter Drawer</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Portfolio Template Card -->
+                    <div class="template-card" data-category="portfolio" data-design="4500" data-dev="4500" data-media="5000">
+                        <div class="template-image-container">
+                            <img src="assets/portfolio.png" alt="Vanguard Studio portfolio design mockup" class="template-image">
+                            <div class="template-overlay">
+                                <button class="btn btn-primary btn-sm btn-select-template">Select Preset</button>
+                            </div>
+                        </div>
+                        <div class="template-info">
+                            <div class="template-header-row">
+                                <span class="template-tag">Creative Portfolio</span>
+                                <span class="template-price-indicator">Premium Tier</span>
+                            </div>
+                            <h3 class="template-name">Vanguard Studio</h3>
+                            <p class="template-desc">A highly creative, typography-driven split-screen layout built to showcase designers, photographers, and studios with editorial flair.</p>
+                            <div class="template-features">
+                                <span><i data-lucide="check"></i> Split Screen</span>
+                                <span><i data-lucide="check"></i> Custom Cursor</span>
+                                <span><i data-lucide="check"></i> Smooth Scrolling</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bakery/Restaurant Template Card -->
+                    <div class="template-card" data-category="bakery" data-design="3500" data-dev="4500" data-media="4500">
+                        <div class="template-image-container">
+                            <img src="assets/bakery.png" alt="Artisan Crust bakery cafe website mockup" class="template-image">
+                            <div class="template-overlay">
+                                <button class="btn btn-primary btn-sm btn-select-template">Select Preset</button>
+                            </div>
+                        </div>
+                        <div class="template-info">
+                            <div class="template-header-row">
+                                <span class="template-tag">Culinary & Bakery</span>
+                                <span class="template-price-indicator">Essential Tier</span>
+                            </div>
+                            <h3 class="template-name">Artisan Crust</h3>
+                            <p class="template-desc">A warm, visual-rich layout featuring delicious food photography, light lavender highlights, interactive menu tabs, and booking buttons.</p>
+                            <div class="template-features">
+                                <span><i data-lucide="check"></i> Interactive Menu</span>
+                                <span><i data-lucide="check"></i> Booking Form</span>
+                                <span><i data-lucide="check"></i> Image Gallery</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Cost & Estimate Calculator Section -->
+        <section id="estimator" class="estimator-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title">Interactive Website <span class="text-gradient">Estimator</span></h2>
+                    <p class="section-subtitle">Select the specific modules your project requires. Watch your custom project estimate update in real-time.</p>
+                </div>
+
+                <div class="estimator-wrapper">
+                    <!-- Left Column: Checkbox Options -->
+                    <div class="estimator-options">
+                        <!-- Step 1: Client Details Info -->
+                        <div class="options-group">
+                            <h3 class="options-group-title"><i data-lucide="user" class="group-icon"></i> 1. Project Details</h3>
+                            <div class="input-grid">
+                                <div class="input-field">
+                                    <label for="calcClientName">Client Name</label>
+                                    <input type="text" id="calcClientName" value="Fameads" placeholder="Your Company Name">
+                                </div>
+                                <div class="input-field">
+                                    <label for="calcProjectName">Project Name</label>
+                                    <input type="text" id="calcProjectName" value="Website Design & Development" placeholder="Project Type">
+                                </div>
+                                <div class="input-field">
+                                    <label for="calcEstimateNo">Estimate No.</label>
+                                    <input type="text" id="calcEstimateNo" value="AT-001" placeholder="e.g. AT-001">
+                                </div>
+                                <div class="input-field">
+                                    <label for="calcDate">Date</label>
+                                    <input type="text" id="calcDate" placeholder="e.g. 10 Jun 2026">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Step 2: Website Design Options -->
+                        <div class="options-group">
+                            <h3 class="options-group-title"><i data-lucide="palette" class="group-icon"></i> 2. Website Design Scope</h3>
+                            <div class="checkbox-list">
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="design" data-price="2500" data-id="design-ui" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>UI/UX Design & Planning</strong>
+                                        <span class="checkbox-desc">Website structure, wireframing & premium layout planning</span>
+                                    </span>
+                                    <span class="checkbox-price">₹2,500</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="design" data-price="1000" data-id="design-typo" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Typography & Color Selection</strong>
+                                        <span class="checkbox-desc">Modern fonts, visual hierarchy & royal color palettes</span>
+                                    </span>
+                                    <span class="checkbox-price">₹1,000</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="design" data-price="1000" data-id="design-wireframe" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Layout Wireframing</strong>
+                                        <span class="checkbox-desc">Responsive page structure planning across devices</span>
+                                    </span>
+                                    <span class="checkbox-price">₹1,000</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="design" data-price="1000" data-id="design-brand" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Brand Alignment</strong>
+                                        <span class="checkbox-desc">Brand-based design styling & corporate consistency</span>
+                                    </span>
+                                    <span class="checkbox-price">₹1,000</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Step 3: Website Development Options -->
+                        <div class="options-group">
+                            <h3 class="options-group-title"><i data-lucide="code" class="group-icon"></i> 3. Website Development Scope</h3>
+                            <div class="checkbox-list">
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="development" data-price="2000" data-id="dev-elements" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Customized Elements</strong>
+                                        <span class="checkbox-desc">Custom-built website sections & personalized components</span>
+                                    </span>
+                                    <span class="checkbox-price">₹2,000</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="development" data-price="1500" data-id="dev-portfolio" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Dynamic Portfolio Features</strong>
+                                        <span class="checkbox-desc">Interactive galleries, slider systems & showcase sections</span>
+                                    </span>
+                                    <span class="checkbox-price">₹1,500</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="development" data-price="1500" data-id="dev-animations" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Custom Animations & Effects</strong>
+                                        <span class="checkbox-desc">Scroll animations, premium hover transitions & micro-effects</span>
+                                    </span>
+                                    <span class="checkbox-price">₹1,500</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="development" data-price="500" data-id="dev-opt" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Speed & Performance Optimization</strong>
+                                        <span class="checkbox-desc">Image compression, clean code & search-engine optimized speed</span>
+                                    </span>
+                                    <span class="checkbox-price">₹500</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="development" data-price="500" data-id="dev-cms" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>CMS / Sync Integration</strong>
+                                        <span class="checkbox-desc">Content management syncing, contact logs & API setups</span>
+                                    </span>
+                                    <span class="checkbox-price">₹500</span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Step 4: Images & Media Options -->
+                        <div class="options-group">
+                            <h3 class="options-group-title"><i data-lucide="image" class="group-icon"></i> 4. Images & Media Scope</h3>
+                            <div class="checkbox-list">
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="media" data-price="3500" data-id="media-images" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>High Quality Images & Assets</strong>
+                                        <span class="checkbox-desc">Premium stock photography, graphic visuals & licensed media assets</span>
+                                    </span>
+                                    <span class="checkbox-price">₹3,500</span>
+                                </label>
+
+                                <label class="checkbox-card checked">
+                                    <input type="checkbox" class="estimator-checkbox" data-category="media" data-price="2500" data-id="media-icons" checked>
+                                    <span class="checkbox-custom"></span>
+                                    <span class="checkbox-label">
+                                        <strong>Custom Icons & UI Elements</strong>
+                                        <span class="checkbox-desc">Hand-crafted custom vector iconography & custom buttons</span>
+                                    </span>
+                                    <span class="checkbox-price">₹2,500</span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Interactive Estimate Sheet Mockup -->
+                    <div class="estimate-sheet-wrapper">
+                        <div class="estimate-sheet" id="estimateSheet">
+                            <!-- Banner Header of Invoice -->
+                            <div class="sheet-banner">
+                                <div class="sheet-logo-block">
+                                    <div class="logo">
+                                        <span class="logo-text">ATO<span class="logo-accent">MADE</span></span>
+                                        <span class="logo-tagline">Creating the Future, Atom by Atom.</span>
+                                    </div>
+                                </div>
+                                <div class="sheet-title-block">
+                                    <h2>WEBSITE DEVELOPMENT ESTIMATE</h2>
+                                </div>
+                            </div>
+
+                            <!-- Invoice Details Section -->
+                            <div class="sheet-details-grid">
+                                <div class="sheet-client-details">
+                                    <div class="details-heading">
+                                        <span class="details-icon"><i data-lucide="user"></i></span>
+                                        <h3>CLIENT DETAILS</h3>
+                                    </div>
+                                    <div class="details-row">
+                                        <span class="details-label">Client Name</span>
+                                        <span class="details-dots">:</span>
+                                        <span class="details-val" id="sheetClientName">Fameads</span>
+                                    </div>
+                                    <div class="details-row">
+                                        <span class="details-label">Project</span>
+                                        <span class="details-dots">:</span>
+                                        <span class="details-val" id="sheetProjectName">Website Design & Development</span>
+                                    </div>
+                                </div>
+                                <div class="sheet-meta-details">
+                                    <div class="meta-box">
+                                        <div class="meta-row">
+                                            <span class="meta-label">Estimate No.</span>
+                                            <span class="meta-dots">:</span>
+                                            <span class="meta-val highlight-purple" id="sheetEstimateNo">AT-001</span>
+                                        </div>
+                                        <div class="meta-row">
+                                            <span class="meta-label">Date</span>
+                                            <span class="meta-dots">:</span>
+                                            <span class="meta-val" id="sheetDate">24 May 2025</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Project Scope Outline -->
+                            <div class="sheet-scope-section">
+                                <div class="details-heading">
+                                    <span class="details-icon"><i data-lucide="target"></i></span>
+                                    <h3>PROJECT SCOPE</h3>
+                                </div>
+                                <ul class="scope-bullets-grid" id="sheetScopeBullets">
+                                    <li data-scope-id="design-ui">UI/UX Design</li>
+                                    <li data-scope-id="design-typo">Typography & Color Selection</li>
+                                    <li data-scope-id="design-wireframe">Layout Wireframing</li>
+                                    <li data-scope-id="design-brand">Brand Alignment</li>
+                                    <li data-scope-id="dev-elements">Customized Website Elements</li>
+                                    <li data-scope-id="dev-portfolio">Dynamic Portfolio Features</li>
+                                    <li data-scope-id="dev-animations">Custom Animations & Effects</li>
+                                    <li data-scope-id="dev-opt">Performance Optimization</li>
+                                    <li data-scope-id="dev-cms">CMS / Sync Integration</li>
+                                    <li data-scope-id="media-images">High Quality Images & Assets</li>
+                                    <li data-scope-id="media-icons">Custom Icons & UI Elements</li>
+                                </ul>
+                            </div>
+
+                            <!-- Detailed Cost Breakdown Table -->
+                            <div class="sheet-breakdown-table">
+                                <div class="table-header">
+                                    <div class="col-category">SERVICE CATEGORY</div>
+                                    <div class="col-details">DETAILS</div>
+                                    <div class="col-amount">AMOUNT (INR)</div>
+                                </div>
+
+                                <!-- Design Category -->
+                                <div class="table-group" id="tableGroupDesign">
+                                    <div class="group-row-main">
+                                        <div class="col-category">
+                                            <div class="cat-logo-box">
+                                                <i data-lucide="monitor"></i>
+                                            </div>
+                                            <strong>1. WEBSITE DESIGN</strong>
+                                        </div>
+                                        <div class="col-details-parent">
+                                            <div class="sub-row" data-item-id="design-ui">
+                                                <div class="sub-detail-title">UI/UX Design & Planning</div>
+                                                <div class="sub-detail-desc">Website structure, wireframing & premium layout planning</div>
+                                                <div class="sub-detail-price">₹ 2,500</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="design-typo">
+                                                <div class="sub-detail-title">Typography & Color Selection</div>
+                                                <div class="sub-detail-desc">Modern fonts, visual hierarchy & color palette</div>
+                                                <div class="sub-detail-price">₹ 1,000</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="design-wireframe">
+                                                <div class="sub-detail-title">Layout Wireframing</div>
+                                                <div class="sub-detail-desc">Responsive page structure planning</div>
+                                                <div class="sub-detail-price">₹ 1,000</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="design-brand">
+                                                <div class="sub-detail-title">Brand Alignment</div>
+                                                <div class="sub-detail-desc">Brand-based design styling & consistency</div>
+                                                <div class="sub-detail-price">₹ 1,000</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-subtotal-row">
+                                        <span class="subtotal-label">DESIGN SUBTOTAL</span>
+                                        <span class="subtotal-amount" id="designSubtotal">₹ 5,500</span>
+                                    </div>
+                                </div>
+
+                                <!-- Development Category -->
+                                <div class="table-group" id="tableGroupDevelopment">
+                                    <div class="group-row-main">
+                                        <div class="col-category">
+                                            <div class="cat-logo-box">
+                                                <i data-lucide="code-2"></i>
+                                            </div>
+                                            <strong>2. WEBSITE DEVELOPMENT</strong>
+                                        </div>
+                                        <div class="col-details-parent">
+                                            <div class="sub-row" data-item-id="dev-elements">
+                                                <div class="sub-detail-title">Customized Elements</div>
+                                                <div class="sub-detail-desc">Custom-built website sections & components</div>
+                                                <div class="sub-detail-price">₹ 2,000</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="dev-portfolio">
+                                                <div class="sub-detail-title">Dynamic Portfolio Features</div>
+                                                <div class="sub-detail-desc">Interactive portfolio/gallery sections</div>
+                                                <div class="sub-detail-price">₹ 1,500</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="dev-animations">
+                                                <div class="sub-detail-title">Custom Animations & Effects</div>
+                                                <div class="sub-detail-desc">Scroll animations, hover effects & transitions</div>
+                                                <div class="sub-detail-price">₹ 1,500</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="dev-opt">
+                                                <div class="sub-detail-title">Optimization</div>
+                                                <div class="sub-detail-desc">Speed & performance optimization</div>
+                                                <div class="sub-detail-price">₹ 500</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="dev-cms">
+                                                <div class="sub-detail-title">CMS / Sync Integration</div>
+                                                <div class="sub-detail-desc">Content management & syncing</div>
+                                                <div class="sub-detail-price">₹ 500</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-subtotal-row">
+                                        <span class="subtotal-label">DEVELOPMENT SUBTOTAL</span>
+                                        <span class="subtotal-amount" id="developmentSubtotal">₹ 6,000</span>
+                                    </div>
+                                </div>
+
+                                <!-- Media Category -->
+                                <div class="table-group" id="tableGroupMedia">
+                                    <div class="group-row-main">
+                                        <div class="col-category">
+                                            <div class="cat-logo-box">
+                                                <i data-lucide="image"></i>
+                                            </div>
+                                            <strong>3. IMAGES & MEDIA</strong>
+                                        </div>
+                                        <div class="col-details-parent">
+                                            <div class="sub-row" data-item-id="media-images">
+                                                <div class="sub-detail-title">High Quality Images & Assets</div>
+                                                <div class="sub-detail-desc">Premium visuals & graphics</div>
+                                                <div class="sub-detail-price">₹ 3,500</div>
+                                            </div>
+                                            <div class="sub-row" data-item-id="media-icons">
+                                                <div class="sub-detail-title">Custom Icons & UI Elements</div>
+                                                <div class="sub-detail-desc">Custom visual assets</div>
+                                                <div class="sub-detail-price">₹ 2,500</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="group-subtotal-row">
+                                        <span class="subtotal-label">MEDIA SUBTOTAL</span>
+                                        <span class="subtotal-amount" id="mediaSubtotal">₹ 6,000</span>
+                                    </div>
+                                </div>
+
+                                <!-- Grand Total Row -->
+                                <div class="table-grand-total">
+                                    <div class="grand-total-label">GRAND TOTAL</div>
+                                    <div class="grand-total-amount" id="sheetGrandTotal">₹ 17,500</div>
+                                </div>
+                            </div>
+
+                            <!-- Sheet Footer (Timeline, Terms, Info) -->
+                            <div class="sheet-footer">
+                                <div class="sheet-footer-grid">
+                                    <div class="footer-block timeline-block">
+                                        <div class="block-title">
+                                            <span class="block-icon"><i data-lucide="calendar"></i></span>
+                                            <h4>PROJECT TIMELINE</h4>
+                                        </div>
+                                        <p class="block-desc">Estimated Delivery:</p>
+                                        <div class="timeline-badge" id="sheetTimeline">7 – 14 Working Days</div>
+                                    </div>
+
+                                    <div class="footer-block payment-block">
+                                        <div class="block-title">
+                                            <span class="block-icon"><i data-lucide="credit-card"></i></span>
+                                            <h4>PAYMENT TERMS</h4>
+                                        </div>
+                                        <ul>
+                                            <li>50% Advance Payment</li>
+                                            <li>Remaining 50% Upon Project Completion</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="footer-block notes-block">
+                                        <div class="block-title">
+                                            <span class="block-icon"><i data-lucide="file-text"></i></span>
+                                            <h4>IMPORTANT NOTES</h4>
+                                        </div>
+                                        <ul>
+                                            <li>Domain and hosting charges are not included.</li>
+                                            <li>Future updates, maintenance, and additional features will be charged separately.</li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <!-- Signatures and Prepared Block -->
+                                <div class="sheet-signature-row">
+                                    <div class="prepared-by-block">
+                                        <p class="sig-label">Prepared By</p>
+                                        <p class="sig-company">AtoMade</p>
+                                        <p class="sig-contact">Contact Number: <span>+91 70255 14985</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Action Buttons below sheet -->
+                        <div class="sheet-actions">
+                            <button class="btn btn-outline" id="printSheetBtn"><i data-lucide="download"></i> Save / Print Estimate</button>
+                            <button class="btn btn-primary" id="submitEstimateBtn">Book Consultation <i data-lucide="arrow-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <span class="badge"><i data-lucide="phone" class="badge-icon"></i> Start A Project</span>
+                        <h2 class="contact-title">Let's Craft Something <span class="text-gradient">Majestic</span></h2>
+                        <p class="contact-description">
+                            Ready to give your business the online identity it deserves? Fill out the form, or reach out to our team directly. We are excited to collaborate with you.
+                        </p>
+                        
+                        <div class="contact-details-list">
+                            <div class="contact-detail-item">
+                                <div class="detail-icon-box">
+                                    <i data-lucide="phone"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span>Call or WhatsApp</span>
+                                    <a href="tel:+917025514985">+91 70255 14985</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-detail-item">
+                                <div class="detail-icon-box">
+                                    <i data-lucide="mail"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span>Email Address</span>
+                                    <a href="mailto:atomade302@gmail.com">atomade302@gmail.com</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-detail-item">
+                                <div class="detail-icon-box">
+                                    <i data-lucide="map-pin"></i>
+                                </div>
+                                <div class="detail-content">
+                                    <span>Our Headquarters</span>
+                                    <p>Ulikkal(PO), 670705</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="contactName">Your Name</label>
+                                    <input type="text" id="contactName" name="name" required placeholder="e.g. Abhiram">
+                                </div>
+                                <div class="form-group">
+                                    <label for="contactEmail">Email Address</label>
+                                    <input type="email" id="contactEmail" name="email" required placeholder="e.g. abhiram@company.com">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactSubject">Subject</label>
+                                <input type="text" id="contactSubject" name="_subject" placeholder="e.g. New Website Development">
+                            </div>
+                            <div class="form-group">
+                                <label for="contactMessage">Project Details & Requirements</label>
+                                <textarea id="contactMessage" name="message" rows="5" placeholder="Tell us about your brand, what templates you like, and your goals..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-full" id="submitFormBtn">Send Royal Inquiry <i data-lucide="send"></i></button>
+                            <div class="form-success" id="formSuccessMessage">
+                                <i data-lucide="check-circle" class="success-icon"></i>
+                                <div>
+                                    <h4>Inquiry Received!</h4>
+                                    <p>Our team will review your requirements and reach out via email/phone within 24 hours.</p>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <span class="logo-text">ATO<span class="logo-accent">MADE</span></span>
+                    <span class="logo-tagline">Creating the Future, Atom by Atom.</span>
+                </a>
+                <p class="footer-copy">&copy; 2026 Atomade. All rights reserved.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigation</h4>
+                <a href="#home">Home</a>
+                <a href="#philosophy">Our Philosophy</a>
+                <a href="#works">My Projects</a>
+                <a href="#templates">Showcase</a>
+                <a href="#estimator">Interactive Estimator</a>
+            </div>
+            <div class="footer-legal">
+                <h4>Legals</h4>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Rate Card</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Review Widget -->
+    <div class="floating-review-widget" id="floatingReviewWidget">
+        <div class="review-widget-toggle" id="reviewWidgetToggle">
+            <i data-lucide="star"></i>
+            <span>Rate Us</span>
+        </div>
+        <div class="review-widget-panel">
+            <h4 class="review-title">How is our website?</h4>
+            <div class="slider-container">
+                <span class="slider-label top">😍</span>
+                <input type="range" min="1" max="10" value="10" class="vertical-slider" id="websiteReviewSlider">
+                <span class="slider-label bottom">😞</span>
+            </div>
+            <div class="review-score">
+                Score: <span id="reviewScoreVal">10</span>/10
+            </div>
+            <button class="btn btn-primary btn-sm btn-full" id="submitReviewBtn">Submit Rating</button>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
